@@ -4,6 +4,9 @@ import GuessCount from "./GuessCount";
 import Card from "./Card.js";
 
 class App extends Component {
+	handleCardClick(card){
+		console.log(card, "clicked");
+	}
 	render() {
 		return (
 			<div className="memory">
